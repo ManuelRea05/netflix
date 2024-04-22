@@ -206,7 +206,7 @@ ul li img {
     }
 
     .tendencias h3 {
-        font-size: 1.2em; /* Reducir el tamaño del texto */
+        font-size: 1.2em !important; /* Reducir el tamaño del texto y usar !important para asegurar la prioridad */
     }
 }
 
@@ -221,6 +221,7 @@ ul li img {
 .tendencias h3 {
     margin: 4px;
     text-align: left;
+    font-size: 1.5em; /* Establecer el tamaño del texto para pantallas grandes */
 }
 
 
