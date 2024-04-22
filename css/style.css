@@ -204,6 +204,10 @@ ul li img {
     .tendencias h3 {
         font-size: 1.2em; /* Reducir el tamaño del texto */
     }
+
+    .section h2 {
+        font-size: 2em; /* Reducir el tamaño del texto */
+    }
 }
 
 /* Estilos de las secciones */
@@ -215,9 +219,7 @@ ul li img {
 
 /* Media query para pantallas más pequeñas */
 @media (max-width: 768px) {
-    .section h2 {
-        font-size: 2em; /* Reducir el tamaño del texto */
-    }
+    
 }
 
 /* Estilos de las tendencias */
@@ -226,12 +228,7 @@ ul li img {
     text-align: left;
 }
 
-/* Media query para pantallas más pequeñas */
-@media (max-width: 768px) {
-    .tendencias h3 {
-        font-size: 1.2em; /* Reducir el tamaño del texto */
-    }
-}
+
 
 
 
