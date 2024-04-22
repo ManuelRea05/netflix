@@ -50,16 +50,28 @@ body{
 
 /* Estilos del héroe */
 .hero {
-    background-image: url('../img/bg.jpg');  /* Imagen de fondo   */
-    background-size: cover;
-    background-position: center;
+    position: relative;
+    overflow: hidden;
     color: white;
     text-align: center;
     padding: 210px 0;
     height: 100vh;
-    width: 100vw;
-
 }
+
+.background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(0.5px); /* Aplica el desenfoque al bg */
+    z-index: -1;
+}
+
+
 
 .hero h1 {
     font-size: 3em;
@@ -73,6 +85,7 @@ body{
 
 .containerHERO{
     margin: 10em auto;
+    filter: blur(7px);
 }
 
 .btn {
