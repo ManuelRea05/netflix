@@ -212,15 +212,21 @@ ul li img:hover {
 
 /* Media query para pantallas más pequeñas */
 @media (max-width: 768px) {
+
+    /* Nav */
+    #navbar {
+        background-color: var(--transparent-black) !important;
+    }
+    /* Fonts size mas bajos */
     .container h3 {
-        font-size: 1.5em; /* Reducir el tamaño del texto */
+        font-size: 1.5em; 
     }
 
     .tendencias h3 {
-        font-size: 1.2em; /* Reducir el tamaño del texto */
+        font-size: 1.2em; 
     }
     .section h2 {
-        font-size: 2em; /* Reducir el tamaño del texto */
+        font-size: 2em; 
     }
     .prox h2{
         font-size: 2em;
