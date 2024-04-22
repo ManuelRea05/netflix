@@ -194,19 +194,10 @@ ul li img {
   } 
 
 
-
 /* Media query para pantallas más pequeñas */
 @media (max-width: 768px) {
     .container h3 {
         font-size: 1.5em; /* Reducir el tamaño del texto */
-    }
-
-    .section h2 {
-        font-size: 2em; /* Reducir el tamaño del texto */
-    }
-
-    .tendencias h3 {
-        font-size: 1.2em !important; /* Reducir el tamaño del texto y usar !important para asegurar la prioridad */
     }
 }
 
@@ -217,11 +208,24 @@ ul li img {
     color: var(--text-color);
 }
 
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .section h2 {
+        font-size: 2em; /* Reducir el tamaño del texto */
+    }
+}
+
 /* Estilos de las tendencias */
 .tendencias h3 {
     margin: 4px;
     text-align: left;
-    font-size: 1.5em; /* Establecer el tamaño del texto para pantallas grandes */
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .tendencias h3 {
+        font-size: 1.2em; /* Reducir el tamaño del texto */
+    }
 }
 
 
