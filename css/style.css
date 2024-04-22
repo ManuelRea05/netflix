@@ -199,34 +199,20 @@ ul li img {
     .container h3 {
         font-size: 1.5em; /* Reducir el tamaño del texto */
     }
-}
 
-/* Estilos de las secciones */
-.section h2 {
-    font-size: 2.5em;
-    margin-bottom: 30px;
-    color: var(--text-color);
-}
-
-/* Media query para pantallas más pequeñas */
-@media (max-width: 768px) {
     .section h2 {
-        font-size: 2em; /* Reducir el tamaño del texto */
+        font-size: 2.5em;
+        margin-bottom: 30px;
+        color: var(--text-color);
     }
-}
 
-/* Estilos de las tendencias */
-.tendencias h3 {
-    margin: 4px;
-    text-align: left;
-}
-
-/* Media query para pantallas más pequeñas */
-@media (max-width: 768px) {
     .tendencias h3 {
-        font-size: 1.2em; /* Reducir el tamaño del texto */
+        margin: 4px;
+        text-align: left;
     }
+    
 }
+
 
 
 
