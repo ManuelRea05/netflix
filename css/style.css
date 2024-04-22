@@ -215,6 +215,7 @@ ul li img {
 
     .section h2 {
         font-size: 2em; /* Reducir el tamaño del texto */
+        text-align: center;
     }
 
     .tendencias h3 {
