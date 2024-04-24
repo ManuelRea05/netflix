@@ -256,7 +256,12 @@ ul li img:hover {
     }
 
     .prox{
-        padding: 0;
+        padding: 0 20px;
+    }
+    .sectionProximamente  img{
+        width: 11em;
+        height: 16em;
+
     }
 
     .footer .nav-link{
