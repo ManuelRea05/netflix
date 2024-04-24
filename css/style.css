@@ -222,6 +222,19 @@ ul li img:hover {
     filter: grayscale(0%);
 }
 
+/* Estilos de barra de desplazamiento */
+::-webkit-scrollbar {
+    background-color: black; 
+    width: 12px; 
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color); 
+    border-radius: 2px; /
+}
+
+
 /* Media query para pantallas más pequeñas */
 @media (max-width: 768px) {
 
