@@ -189,11 +189,11 @@ hr {
 
   /*-- Slider --*/
 .prox{
-    padding: 20px 0;
+    padding: 20px 130px;
 }
 
 .sectionProximamente{
-    padding:0;
+    padding: 0;
     text-align: center;
     margin: 50px 0;
     width: 100%;
@@ -204,7 +204,7 @@ hr {
     border: 1px solid rgba(0, 0, 0, 0.068);
     width: 14em;
     height: 20em;
-    margin: 10px 3px;
+    margin: 10px 15px;
     overflow: hidden;
     border-radius: 5px;
 }
@@ -253,6 +253,10 @@ ul li img:hover {
 
     .tendencias img {
         height: 450px;
+    }
+
+    .prox{
+        padding: 0;
     }
 
     .footer .nav-link{
