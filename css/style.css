@@ -198,13 +198,12 @@ hr {
     margin: 50px 0;
     width: 100%;
     height: auto;
-    overflow-x: auto;   
+    overflow-x: auto;
 }
 .sectionProximamente  img {
     border: 1px solid rgba(0, 0, 0, 0.068);
-    background-color: #fff;
-    width: 20em;
-    height: 28em;
+    width: 14em;
+    height: 20em;
     margin: 10px 3px;
     overflow: hidden;
     border-radius: 5px;
@@ -254,5 +253,13 @@ ul li img:hover {
 
     .tendencias img {
         height: 450px;
+    }
+
+    .footer .nav-link{
+        font-size: 0.7rem;
+    }
+
+    .footer p{
+        font-size: 0.8rem;
     }
 }
