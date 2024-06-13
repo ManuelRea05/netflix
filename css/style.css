@@ -3,7 +3,7 @@
 /* Variables */
 :root {
     --primary-color: #070F2B;
-    --secondary-color: #41B06E;
+    --secondary-color: #E50914;
     --transparent-black: rgba(0, 0, 0, 0.8);
     --button-hover-color: #fff;
     --text-color: white;
@@ -109,8 +109,8 @@ body{
 }
 
 .btn-primary:hover {
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: var(--secondary-color);
+    color: black;
 }
 
 hr {
@@ -173,22 +173,8 @@ hr {
     cursor: pointer;
 }
 
-/*Footer*/
-.nav-item .nav-link {
-    color: var(--text-color);
-}
-
-.nav-link:hover {
-    color: var(--secondary-color);
-}
-
-.copyright {
-    color: var(--text-color);
-    padding-top: 10px;
-}
-
   /*-- Slider --*/
-.prox{
+  .prox{
     padding: 20px 130px;
 }
 
@@ -213,7 +199,7 @@ hr {
     padding: 0;
 }
 
- ul li img {
+ul li img {
     filter: grayscale(90%);
   }
 
@@ -221,6 +207,22 @@ ul li img:hover {
     cursor: pointer;
     filter: grayscale(0%);
 }
+
+/*Footer*/
+.nav-item .nav-link {
+    color: var(--text-color);
+}
+
+.nav-link:hover {
+    color: var(--secondary-color);
+}
+
+.copyright {
+    color: var(--text-color);
+    padding-top: 10px;
+}
+
+
 
 /* Estilos de barra de desplazamiento */
 ::-webkit-scrollbar {

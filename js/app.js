@@ -9,3 +9,5 @@ $(document).ready(function(){
     });
 });
 
+document.getElementById('MyForm').addEventListener('submit')
+
